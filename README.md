@@ -69,6 +69,8 @@
 | parent_id | 所属栏目 ID |
 | name      | 栏目名称    |
 | code      | 栏目编码    |
+| cover_img | 栏目图片    |
+| desc      | 栏目简介    |
 | status    | 状态        |
 
 ### 内容 post
