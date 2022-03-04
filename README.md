@@ -4,22 +4,42 @@
 
 数据使用 json 保存，依靠 [json-server](https://www.npmjs.com/package/json-server) 提供服务：
 
-- 安装：`npm install -g json-server`
-- 运行：`json-server --watch db.json`
-  - 本例：`json-server --port 3301 --watch db.json`
+- 本地：
+  - 安装：`npm install`
+  - 运行：`npm run db`
+- 全局：
+  - 安装：`npm install -g json-server`
+  - 运行：`json-server --watch db.json`
+    - 本例：`json-server --port 3301 --watch db.json`
 
 ## 数据结构
 
+状态说明：
+
+- 管理类：
+  - 未审核 0 not_reviewed
+  - 已启用 1 activated
+  - 已禁用 2 disabled
+  - 已删除 3 deleted
+- 文章类：
+  - 草稿 0 draft
+  - 已审核 1 audited
+  - 已发布 2 published
+  - 未发布 3 unpublished
+  - 已删除 4 deleted
+
 ### 用户 user
 
-| 字段     | 含义   |
-| -------- | ------ |
-| id       | ID     |
-| phone    | 手机号 |
-| pwd      | 密码   |
-| nickname | 昵称   |
-| avatar   | 头像   |
-| status   | 状态   |
+| 字段          | 含义             |
+| ------------- | ---------------- |
+| id            | ID               |
+| phone         | 手机号           |
+| pwd           | 密码             |
+| name          | 姓名             |
+| avatar        | 头像             |
+| allow_backend | 是否允许登录后台 |
+| source        | 来源             |
+| status        | 状态             |
 
 ### 角色 role
 
