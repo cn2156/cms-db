@@ -224,15 +224,15 @@ API 响应设计：
   - For multiple fields, use the following format:
     - GET `/posts?_sort=user,views&_order=desc,asc`
 - Slice
-  - Add \_start and \_end or \_limit (an X-Total-Count header is included in - the response)
+  - Add `_start` and `_end` or `_limit` (an X-Total-Count header is included in - the response)
     - GET `/posts?_start=20&_end=30`
     - GET `/posts/1/comments?_start=20&_end=30`
     - GET `/posts/1/comments?_start=20&_limit=10`
-  - Works exactly as Array.slice (i.e. \_start is inclusive and \_end exclusive)
+  - Works exactly as Array.slice (i.e. `_start` is inclusive and `_end` exclusive)
 - Operators
   - Add `_gte` or `_lte` for getting a range
     - GET `/posts?views_gte=10&views_lte=20`
-  - Add \_ne to exclude a value
+  - Add `_ne` to exclude a value
     - GET `/posts?id_ne=1`
   - Add `_like` to filter (RegExp supported)
     - GET `/posts?title_like=server`
