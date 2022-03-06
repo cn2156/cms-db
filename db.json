@@ -1,7 +1,7 @@
 {
   "user": [
     {
-      "phone": "13123456789",
+      "phone": "131",
       "pwd": "96e79218965eb72c92a549dd5a330112",
       "name": "Admin",
       "avatar": "/avatar/avatar01.png",
@@ -101,16 +101,6 @@
       "id": 10
     },
     {
-      "phone": "13100000004",
-      "pwd": "",
-      "name": "lisi",
-      "avatar": "",
-      "allow_backend": 0,
-      "source": 1,
-      "status": "2",
-      "id": 11
-    },
-    {
       "phone": "13112345672",
       "pwd": "96e79218965eb72c92a549dd5a330112",
       "name": "zs",
@@ -189,6 +179,36 @@
       "source": 1,
       "status": "2",
       "id": 19
+    },
+    {
+      "phone": "13100000010",
+      "pwd": "96e79218965eb72c92a549dd5a330112",
+      "name": "wangwu",
+      "avatar": "/avatar/avatar07.png",
+      "allow_backend": 1,
+      "status": "1",
+      "source": 1,
+      "id": 20
+    },
+    {
+      "phone": "13100000008",
+      "pwd": "aaa",
+      "name": "lisi---",
+      "avatar": "bbb",
+      "allow_backend": 1,
+      "source": 0,
+      "status": "2",
+      "id": 21
+    },
+    {
+      "phone": "13100000011",
+      "pwd": "",
+      "name": "zhaoliu",
+      "avatar": "/avatar/avatar01.png",
+      "allow_backend": 0,
+      "status": "1",
+      "source": 1,
+      "id": 22
     }
   ],
   "role": [],
