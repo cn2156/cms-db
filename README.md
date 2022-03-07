@@ -12,6 +12,15 @@
   - 运行：`json-server --watch db.json`
     - 本例：`json-server --port 3301 --watch db.json`
 
+## 数据操作
+
+[CRUD (Create, Read, Update, Delete)](https://developer.mozilla.org/zh-CN/docs/Glossary/CRUD)：
+
+- Create：创建、新建
+- Read：读取、查看
+- Update：更新
+- Delete：删除
+
 ## 数据结构
 
 状态说明：
