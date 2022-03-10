@@ -204,6 +204,8 @@ API 响应设计：
 
 ## json-server 路由
 
+详见官方文档[json-server](https://www.npmjs.com/package/json-server)
+
 路由：
 
 - Plural routes
