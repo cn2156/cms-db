@@ -174,7 +174,7 @@
       "phone": "13100000009",
       "pwd": "",
       "name": "lisi",
-      "avatar": "",
+      "avatar": "/avatar/avatar01.png",
       "allow_backend": 0,
       "source": 1,
       "status": "2",
@@ -194,7 +194,7 @@
       "phone": "13100000008",
       "pwd": "aaa",
       "name": "lisi---",
-      "avatar": "bbb",
+      "avatar": "/avatar/avatar06.png",
       "allow_backend": 1,
       "source": 0,
       "status": "2",
@@ -221,11 +221,100 @@
       "id": 23
     }
   ],
-  "role": [],
+  "role": [
+    {
+      "name": "管理员",
+      "code": "mananger",
+      "status": "1",
+      "id": 1
+    },
+    {
+      "name": "管理员2",
+      "code": "mangage2",
+      "status": "1",
+      "id": 2
+    },
+    {
+      "name": "TEST",
+      "code": "test",
+      "status": "0",
+      "id": 3
+    },
+    {
+      "name": "Test2",
+      "code": "test2",
+      "status": "1",
+      "id": 4
+    },
+    {
+      "name": "test3",
+      "code": "test3",
+      "status": "1",
+      "id": 5
+    },
+    {
+      "name": "c",
+      "code": "d",
+      "status": "0",
+      "id": 10
+    },
+    {
+      "name": "e",
+      "code": "f",
+      "status": "1",
+      "id": 11
+    },
+    {
+      "name": "x",
+      "code": "uy",
+      "status": "1",
+      "id": 12
+    }
+  ],
   "resource": [],
   "user_role": [],
   "role_resource": [],
-  "category": [],
+  "category": [
+    {
+      "name": "HTML",
+      "code": "html",
+      "parent_id": 0,
+      "cover_img": "/avatar/avatar08.png",
+      "is_common": 1,
+      "display_order": 0,
+      "status": "1",
+      "id": 5
+    },
+    {
+      "name": "CSS",
+      "code": "css",
+      "parent_id": 0,
+      "cover_img": "",
+      "is_common": 1,
+      "display_order": 0,
+      "status": "1",
+      "id": 6
+    },
+    {
+      "name": "JavaScript",
+      "code": "javascript",
+      "parent_id": 0,
+      "cover_img": "",
+      "is_common": 1,
+      "display_order": 0,
+      "status": "0",
+      "id": 7
+    },
+    {
+      "name": "Vue.js",
+      "code": "vue",
+      "parent_id": 0,
+      "cover_img": "",
+      "display_order": 0,
+      "status": "1",
+      "id": 8
+    }
+  ],
   "post": [],
   "favorite": [],
   "likes": [],

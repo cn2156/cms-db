@@ -92,15 +92,17 @@
 
 ### 栏目 category
 
-| 字段      | 含义        |
-| --------- | ----------- |
-| id        | ID          |
-| parent_id | 所属栏目 ID |
-| name      | 栏目名称    |
-| code      | 栏目编码    |
-| cover_img | 栏目图片    |
-| desc      | 栏目简介    |
-| status    | 状态        |
+| 字段          | 含义        |
+| ------------- | ----------- |
+| id            | ID          |
+| display_order | 显示顺序    |
+| name          | 栏目名称    |
+| code          | 栏目编码    |
+| parent_id     | 所属栏目 ID |
+| cover_img     | 栏目图片    |
+| desc          | 栏目简介    |
+| is_common     | 普通栏目    |
+| status        | 状态        |
 
 ### 内容 post
 
